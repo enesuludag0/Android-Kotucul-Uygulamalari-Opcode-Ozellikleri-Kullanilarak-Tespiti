@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APK Analiz</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>APK Analiz</h1>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>APK Dosyasını Yükleyin</h2>
+            <form id="upload-form" method="POST" action="/upload" enctype="multipart/form-data">
+                <input type="file" id="apk-file" name="file" accept=".apk" required>
+                <button type="submit" style="margin-top: 25px;">Analiz Et</button>
+            </form>            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 APK Analiz Aracı. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>

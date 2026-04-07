@@ -50,10 +50,11 @@ python app.py
 - 1️⃣ APK dosyası decompile edilir.
 - 2️⃣ Opcode’lar çıkarılır.
 - 3️⃣ Özellikler vektör haline getirilir.
-- 4️⃣ Model eğitimi ve sınıflandırma algoritması (xg boost) çalışır.
+- 4️⃣ Model eğitimi ve sınıflandırma algoritması (XGBoost) çalışır.
 - 5️⃣ Sonuçlar web sitesinde gösterilir.
 
 ## 📱 Ekran Görüntüleri
+Aşağıdaki görsellerde XGBoost algoritmasının performansını test etmek amacıyla web uygulamasında örnek bir malware APK dosyası yüklendiğinde, sunucu bu APK dosyasının opcode özelliklerini çıkarıp analiz ederek APK’nın etiket tahminini ve malware olma olasılığını ekranda gösterir. Analiz sonuçları ekranında APK’nın %99,60 olasılıkla malware olduğu tahmin edilmiştir. Bu da tahminlerin doğru yapıldığını göstermektedir.
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/bcdebc7d-3e79-475d-9f70-61245915c37b" />
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ff633e56-acb7-401c-b6e2-f54c78a238d0" />

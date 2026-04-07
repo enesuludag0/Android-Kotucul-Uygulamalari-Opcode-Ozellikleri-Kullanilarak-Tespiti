@@ -47,11 +47,11 @@ python app.py
 
 ## 📄 Proje İşleyişi
 
-1️⃣ APK dosyası decompile edilir.
-2️⃣ Opcode’lar çıkarılır.
-3️⃣ Özellikler vektör haline getirilir.
-4️⃣ Model eğitimi ve sınıflandırma algoritması (xg boost) çalışır.
-5️⃣ Sonuçlar web sitesinde gösterilir.
+- 1️⃣ APK dosyası decompile edilir.
+- 2️⃣ Opcode’lar çıkarılır.
+- 3️⃣ Özellikler vektör haline getirilir.
+- 4️⃣ Model eğitimi ve sınıflandırma algoritması (xg boost) çalışır.
+- 5️⃣ Sonuçlar web sitesinde gösterilir.
 
 ## 📱 Ekran Görüntüleri
 
